@@ -1,0 +1,34 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "kirrik",
+            "first_name": "Кирилл",
+            "last_name": "Антонов",
+            "is_superuser": "True",
+            "is_staff": "True",
+            "password": "supersecret"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "leo",
+            "first_name": "Лев",
+            "last_name": "Толстой",
+            "password": "secret"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "anton",
+            "first_name": "Антон",
+            "last_name": "Чехов",
+            "password": "secret"
+        }
+    }
+]
