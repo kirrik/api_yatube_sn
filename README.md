@@ -11,6 +11,10 @@ API для социальной сети [Yatube](https://github.com/kirrik/yatu
 ``sh
 pip install -r requirements.txt
 ``
+- выполните миграции
+``sh
+python manage.py migrate
+``
 - запустите сервер
 ``sh
 python manage.py runserver
