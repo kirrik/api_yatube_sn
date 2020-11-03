@@ -8,15 +8,15 @@ API для социальной сети [Yatube](https://github.com/kirrik/yatu
 - клонируйте репозиторий
 - установите виртуальное окружение, активируйте его
 - установите зависимости
-``sh
+``
 pip install -r requirements.txt
 ``
 - выполните миграции
-``sh
+``
 python manage.py migrate
 ``
 - запустите сервер
-``sh
+``
 python manage.py runserver
 ``
 - документация доступна по адресу http://127.0.0.1:8000/redoc/
